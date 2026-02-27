@@ -1454,6 +1454,32 @@ button.btn-details.btn-add:focus {
   color: #6a6a6a;
   background-color: #ebebeb;
 }
+.tabel-kelas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+}
+
+.tabel-kelas th,
+.tabel-kelas td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabel-kelas th {
+  background: #1e8449;
+  color: white;
+}
+
+.tabel-kelas tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.tabel-kelas tr:hover {
+  background: #d5f5e3;
+}
 /* many-works */
 .many-works {
   width: 100%;
