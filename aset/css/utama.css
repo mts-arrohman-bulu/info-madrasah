@@ -133,3 +133,20 @@ margin: 0 0 20px;
     height:200px;
     object-fit:cover;
 }
+
+.galeri-grid .hold-photo{
+margin-bottom:20px;
+overflow:hidden;
+border-radius:6px;
+}
+
+.galeri-grid img{
+width:100%;
+height:220px;
+object-fit:cover;
+transition:0.3s;
+}
+
+.galeri-grid img:hover{
+transform:scale(1.05);
+}
