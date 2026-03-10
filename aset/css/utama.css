@@ -219,3 +219,28 @@ padding:10px;
 margin:0;
 font-size:14px;
 }
+
+.galeri-grid .galeri-item{
+margin-bottom:25px;
+}
+
+.hold-photo{
+background:#fff;
+border-radius:8px;
+overflow:hidden;
+box-shadow:0 2px 6px rgba(0,0,0,0.15);
+height:100%;
+}
+
+.hold-photo img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.judul-foto{
+text-align:center;
+padding:10px;
+margin:0;
+font-size:14px;
+}
